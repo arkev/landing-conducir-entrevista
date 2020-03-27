@@ -149,22 +149,27 @@
 
 /* /Manuel */
 /* Juan (151-200) */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body{
-            background: lightgray;
+            background: white;
             margin: 0;
             padding: 0;
-            font-family: 'Montserrat' ;
+            font-family: 'Montserrat', sans-serif;
 
         }
-        header, section, nav, article, footer{
-            padding: 15px;
-            margin: 15px;
-            display: block;
 
-        }
         
+       #acercade{
+        display: block;
+        max-width: 1020px;
+        margin: 0 auto;
+
+       }
        
-       
+       #ventajas{
+       	display: block;
+       	max-width: 100px;
+       }
         }
         section{
             background: lightgray;
