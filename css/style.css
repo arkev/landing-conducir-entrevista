@@ -99,54 +99,21 @@
 
 /* /Nema */
 /* Manuel (101-150) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#beneficios{
+    display: block;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+        @media screen and (min-width:768px) {
+            /* aqui inicia los estilos de tablet*/
+            
+            /* aqui inicia los estilos de tablet*/
+        }
+         @media screen and (min-width:1024px) {
+            /* aqui inicia los estilos de tablet*/
+             
+            /* aqui inicia los estilos de tablet*/
+}
 /* /Manuel */
 /* Juan (151-200) */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
