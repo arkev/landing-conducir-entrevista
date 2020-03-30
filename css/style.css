@@ -5,7 +5,7 @@ header{
 }
 .hero-image {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.3)
     ), url(Img/69cd25_04cddd545c064d5394275f3c2ade52f1~mv2_d_3000_1687_s_2.webp) no-repeat center;
     background-size:cover;
