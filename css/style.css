@@ -46,6 +46,11 @@ button{
     font-weight: 700;
     font-size: 18px;
     color: white;
+    cursor: pointer !important;
+}
+button:hover {
+    background-color: rgba(50, 50, 50, 1);
+    border-color: transparent;
 }
 .text-hero p{
     font-size: 24px;
