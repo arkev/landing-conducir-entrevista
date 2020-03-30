@@ -1,7 +1,79 @@
 /* Matías (1-50) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /Matías */
+/* Nema (51-100) */
 header{
   background-color: transparent;
-  font-family: 'Montserrat', sans-serif;
+}
+h1{
+    width: 620px;
+    font-size:49px;
+    font-weight: 900;
+    line-height:1.2em;
+    color: white;
+    text-align: left;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.button{
+    background-color: transparent; 
+    color: white;
+    border-radius: 50px; border: 2.5px solid;
+    font-size: 17px; padding: 10px 31px;
+}
+.subtitle{
+    color: white;
+    font-weight: 350;
+    text-align: left;
 }
 .hero-image {
     background: linear-gradient(
@@ -32,10 +104,7 @@ header{
     padding-left: 50px;
     position: relative;
 }
-h1{
-    font-weight: 900;
-    font-size: 49px;
-}
+
 button{
     height: 52px;
     min-height: 24px;
@@ -55,56 +124,6 @@ button:hover {
 .text-hero p{
     font-size: 24px;
 }
-/* /Matías */
-/* Nema (51-100) */
-header{
-    background-color: aliceblue;
-    text-align: center;
-}
-h1{
-    width: 620px;
-    font-size:49px;
-    line-height:1.2em;
-    color: white;
-    text-align: left;
-}
-.logo{
-    width: 50%;
-    height: 50%;
-}
-.button{
-    background-color: transparent; 
-    color: white;
-    border-radius: 50px; border: 2.5px solid;
-    font-size: 17px; padding: 10px 31px;
-}
-.subtitle{
-    color: white;
-    font-weight: 350;
-    text-align: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /Nema */
 /* Manuel (101-150) */
 #beneficios{
