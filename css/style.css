@@ -104,9 +104,33 @@ button{
     margin: 0 auto;
     max-width: 1020px;
 }
+h2{
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.4em;
+}
+.beneficio{
+    width: 90%;
+    margin: 1.5em auto;
+    display: block;
+    
+}
+.beneficio img{
+    display: inline-block;
+    width: 12%;
+    margin-right: 6%;
+    max-width: 60px;
+}
+.beneficio div{
+    display: inline-block;
+    width: 81%;
+}
         @media screen and (min-width:768px) {
             /* aqui inicia los estilos de tablet*/
-            
+            .beneficio img, div{
+                display: inline-grid;
+                grid-template-columns: 
+            }
             /* aqui inicia los estilos de tablet*/
         }
          @media screen and (min-width:1024px) {
