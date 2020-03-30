@@ -1,52 +1,52 @@
 /* Matías (1-50) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+header{
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-image {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ), url(Img/69cd25_04cddd545c064d5394275f3c2ade52f1~mv2_d_3000_1687_s_2.webp) no-repeat center;
+    background-size:cover;
+    height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+}
+.hero-logo {
+   display: grid;
+   /*grid-template-columns:50px 1fr 1fr 1fr 50px; */
+   grid-template-rows: 100px;
+}
+#logos {
+    grid-column-start: 2;
+}
+#icons {
+    grid-column-start: 4;
+    color: white;
+    width: 28px;
+    height: 28px;
+}
+.text-hero {
+    color: white;
+    padding-left: 219px;
+    position: relative;
+}
+h1{
+    font-weight: 900;
+    font-size: 49px;
+}
+button{
+    height: 52px;
+    min-height: 24px;
+    width: 189px;
+    background-color: transparent;
+    border: solid rgba(255, 255, 255, 1) 2px;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
 /* /Matías */
 /* Nema (51-100) */
 header{
