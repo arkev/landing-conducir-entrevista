@@ -16,10 +16,12 @@ header{
 .hero-logo {
    display: grid;
    /*grid-template-columns:50px 1fr 1fr 1fr 50px; */
-   grid-template-rows: 100px;
+   grid-template-rows: 80px;
+    padding-top: 10px;
 }
 #logos {
     grid-column-start: 2;
+    vertical-align: top;
 }
 #icons {
     grid-column-start: 4;
@@ -29,7 +31,7 @@ header{
 }
 .text-hero {
     color: white;
-    padding-left: 219px;
+    padding-left: 50px;
     position: relative;
 }
 h1{
@@ -46,6 +48,9 @@ button{
     font-weight: 700;
     font-size: 18px;
     color: white;
+}
+.text-hero p{
+    font-size: 24px;
 }
 /* /Matías */
 /* Nema (51-100) */
