@@ -1,52 +1,96 @@
 /* Matías (1-50) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#why {
+    width: 100%;
+    height: auto;
+    display: grid;
+    position: relative;
+    justify-content: center;
+}
+.title4 { 
+    position: static;
+    display: grid;
+    height: auto;
+    width: 280px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+.title4 h4 {
+    width: 180px;
+    color: #1D1E21;
+    position: relative;
+    margin: 115px 0px 10px;
+    left: 57px;
+}
+.num p {
+    visibility: inherit;
+    margin: -176px 0px 0px;
+    width: 208px;
+    font-size:176px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+#num01 {
+    color:#C0FCFC;
+}
+#num02 {
+    color:#ECDBFF;
+}
+#num03 {
+    color:#D4EDEE;
+}
+#cta{
+position: static;
+display: grid;
+height: auto;
+width: 100%;
+grid-template-rows:1fr;
+grid-template-columns: 100%;
+justify-content: center;
+}
+#cta p {
+    font-size: 15px;
+    color: #787C88;
+    position: relative;
+    margin: auto;
+    left: 25px;
+    font-weight: 700;
+}
+#cta img {
+    margin: auto;
+    position: relative;
+}
+#cta div {
+    justify-content: center;
+    display: grid;
+}
+form {
+    height: auto;
+   width: 480px;
+   position: relative;
+}
+input {
+    width: 100%;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box !important;
+    color: #00A6FF;
+    border-style: solid;
+    border-color: rgba(198, 226, 247, 1);
+    padding: 20px;
+    margin: 5px;
+    text-overflow: ellipsis;
+    height: 50px;
+    display: inline-block;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 14px/1.4em;
+}
+form button {
+    background-color: transparent;
+border: solid rgba(29, 30, 33, 1) 2px;
+    color: black;
+}
 /* /Matías */
 /* Nema (51-100) */
 header{
@@ -118,6 +162,7 @@ button{
     cursor: pointer !important;
 }
 button:hover {
+    color: white;
     background-color: rgba(50, 50, 50, 1);
     border-color: transparent;
 }
