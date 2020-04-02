@@ -230,7 +230,6 @@ h2{
 }
 /* /Manuel */
 /* Juan (151-200) */
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body{
             background: white;
             margin: 0;
@@ -251,54 +250,19 @@ body{
        	display: block;
        	max-width: 100px;
        }
-        }
-        section{
-            position: relative;
-            grid-column: 1 1 / 2 2;
-        }
-        nav{
-            background: yellow;
-        }
+     
         .contenedor {
             display: grid;
             grid-template-columns: 100px 100px;
         }
-        article{
-            background: red;
 
         }
-        footer{
-            background: orange;
-            text-align: center;
-            height: 70px;
-            width: 100%;
-            margin: 0;
-        }
+       
         
         *{
             box-sizing: border-box;
         }
-        @media screen and (min-width: 768px){
-         /*aqui inician los estilos de tablet*/
-         section{
-            display:grid;
-            grid-template: 1fr / 200px 1fr; 
-        }
-       
-         /*aqui terminan los estilos de tablet*/
-        }
-
-        @media screen and (min-width: 1024px){
-         /*aqui inician los estilos de laptop*/
- 
-            h1 {
-                font-size: 48px;
-            }
-           
-            section{
-                grid-template: 1fr / 300px 1fr;
-            }
-
+        
 
 
 
