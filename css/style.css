@@ -91,6 +91,23 @@ form button {
 border: solid rgba(29, 30, 33, 1) 2px;
     color: black;
 }
+ @media screen and (min-width: 768px){
+         /*aqui inician los estilos de tablet*/
+       #why {
+     display: flex;
+            }
+       
+         /*aqui terminan los estilos de tablet*/
+        }
+
+        @media screen and (min-width: 1024px){
+         /*aqui inician los estilos de laptop*/
+ #why {
+     display: flex;
+            }
+         /*aqui terminan los estilos de laptop*/
+            }
+
 /* /Matías */
 /* Nema (51-100) */
 header{
@@ -207,7 +224,8 @@ h2{
         }
          @media screen and (min-width:1024px) {
             /* aqui inicia los estilos de tablet*/
-             
+              .beneficio img, div{
+                display: grid;
             /* aqui inicia los estilos de tablet*/
 }
 /* /Manuel */
@@ -235,9 +253,8 @@ body{
        }
         }
         section{
-            background: lightgray;
             position: relative;
-            grid-column: 1 / 2;
+            grid-column: 1 1 / 2 2;
         }
         nav{
             background: yellow;
