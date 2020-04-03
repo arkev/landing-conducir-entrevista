@@ -5,6 +5,7 @@
     display: grid;
     position: relative;
     justify-content: center;
+    font-family:'Montserrat',sans-serif;
 }
 .title4 { 
     position: static;
@@ -20,6 +21,7 @@
     position: relative;
     margin: 115px 0px 10px;
     left: 57px;
+    font-family:'Montserrat',sans-serif;
 }
 .num p {
     visibility: inherit;
@@ -28,6 +30,7 @@
     font-size:176px;
     line-height: 1.4em;
     font-weight: 700;
+    font-family:'Montserrat',sans-serif;
 }
 #num01 {
     color:#C0FCFC;
@@ -51,12 +54,14 @@ justify-content: center;
     font-size: 15px;
     color: #787C88;
     position: relative;
-    margin: -30px 45px 0px;
+    margin: -34px 75px 0px;
     font-weight: 700;
+    font-family:'Montserrat',sans-serif;
 }
 #cta div {
     justify-content: center;
     display: grid;
+    margin: 20px;
 }
 form {
     height: auto;
@@ -100,6 +105,11 @@ form div {
     justify-content: center;
     display: grid;
 }
+.fa-lock {
+   font-size: 30px;
+    color: #e2e2e2;
+    margin: 0px 30px 0px;
+}
  @media screen and (min-width: 768px){
          /*aqui inician los estilos de tablet*/
        #why {
@@ -110,7 +120,9 @@ form div {
   }
          /*aqui terminan los estilos de tablet*/
         }
-
+  #cta p {
+                margin: -30px 75px 0px;
+            }
         @media screen and (min-width: 1024px){
          /*aqui inician los estilos de laptop*/
  #why {
@@ -119,6 +131,9 @@ form div {
             input {
     width: 724px;
   }
+            #cta p {
+                margin: -28px 75px 0px;
+            }
          /*aqui terminan los estilos de laptop*/
             }
 
@@ -210,6 +225,7 @@ h2{
     font-size: 32px;
     text-align: center;
     line-height: 1.4em;
+    font-family:'Montserrat',sans-serif;
 }
 .beneficio{
     width: 90%;
@@ -243,6 +259,7 @@ h2{
 }
 /* /Manuel */
 /* Juan (151-200) */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body{
             background: white;
             margin: 0;
