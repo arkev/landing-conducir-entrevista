@@ -94,10 +94,12 @@ border: solid rgba(29, 30, 33, 1) 2px;
 /* /Matías */
 /* Nema (51-100) */
 header{
-  background-color: transparent;
+    background-color: transparent;
+    display: grid;
 }
 h1{
-    width: 620px;
+    display: grid;
+    width: 100%;
     font-size:49px;
     font-weight: 900;
     line-height:1.2em;
@@ -168,6 +170,22 @@ button:hover {
 }
 .text-hero p{
     font-size: 24px;
+}
+@media screen and (min-width:768px) {
+            /* aqui inicia los estilos de tablet*/
+            header{
+                display:grid; 
+            }
+   
+            /* aqui inicia los estilos de tablet*/
+        }
+         @media screen and (min-width:1024px) {
+            /* aqui inicia los estilos de tablet*/
+             }
+             header{
+                display: grid;
+             }
+            /* aqui inicia los estilos de tablet*/
 }
 /* /Nema */
 /* Manuel (101-150) */
