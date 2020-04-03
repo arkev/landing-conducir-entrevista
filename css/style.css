@@ -126,10 +126,15 @@ body{
         }
 
         
+   
+       }
+      
        #acercade{
         display: block;
         max-width: 1020px;
         margin: 0 auto;
+        grid-column: 1;
+        grid-row: 2;
 
        }
        
@@ -161,6 +166,8 @@ body{
             width: 100%;
             margin: 0;
         }
+
+
         
         *{
             box-sizing: border-box;
