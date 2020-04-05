@@ -189,12 +189,11 @@ button:hover {
                 margin:auto;
             }
             .logo1{
-                position: relative;
                 width: 190%;
                 margin: 0 auto;
                 padding-left: 25%
             }
-            .logo2{                                             position: relative;
+            .logo2{                                         
                 width: 100%;
                 margin:auto;
             }
@@ -202,7 +201,15 @@ button:hover {
 }
     @media screen and (min-width:1024px){
             /* aqui inicia los estilos de tablet*/
-        }
+        .logo1{
+                width: 160%;
+                margin: 0 auto;
+                margin-left: 35%
+            }
+        .logo2{
+                width: 70%;
+                margin:auto;
+            }
             /* aqui inicia los estilos de tablet*/
 }
 /* /Nema */
