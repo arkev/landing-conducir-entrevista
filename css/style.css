@@ -104,13 +104,18 @@ header{
 h1{
     width: 100%;
     font-size:37px;
-    font-weight: 900;
+    font-weight: 700;
     line-height:1.2em;
     color: white;
     text-align: left;
 }
-.logo{
-    width: 90%;
+.logo1{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.logo2{
+    width: 70%;
     margin: 0 auto;
     display: block;
 }
@@ -119,19 +124,18 @@ h1{
     color: white;
     border-radius: 50px; border: 2.5px solid;
     font-size: 17px; padding: 10px 31px;
+    margin-bottom: 40px;
 }
 .subtitle{
     color: white;
+    font-size:26px;
     font-weight: 350;
     text-align: left;
-}
-#logos {
-    
+    margin-bottom: 1.75em;
 }
 #icons {
  display: none;
 }
-
 #header{
     padding-bottom: 3em;
 }
@@ -163,15 +167,42 @@ button:hover {
 }
 @media screen and (min-width:768px) {
             /* aqui inicia los estilos de tablet*/
-            header{
-                display:grid; 
-            }
             
+            #header{
+                display:grid;
+                grid-template: 1fr/ 1fr 4fr 1fr
+            }
+            h1{
+                display: grid;
+                width: 75%;
+                font-size:45px;
+                font-weight: 700;
+                line-height:1.2em;
+                color: white;
+                text-align: left;
+                margin-top: 15%;
+            }
+           #icons {
+                display:block;
+                width: 60%;
+                color: white;
+                margin:auto;
+            }
+            .logo1{
+                position: relative;
+                width: 190%;
+                margin: 0 auto;
+                padding-left: 25%
+            }
+            .logo2{                                             position: relative;
+                width: 100%;
+                margin:auto;
+            }
+            /* aqui inicia los estilos de tablet*/
+}
+    @media screen and (min-width:1024px){
             /* aqui inicia los estilos de tablet*/
         }
-         @media screen and (min-width:1024px) {
-            /* aqui inicia los estilos de tablet*/
-             
             /* aqui inicia los estilos de tablet*/
 }
 /* /Nema */
