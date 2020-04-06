@@ -408,7 +408,12 @@ body{
 footer{
                 background:#232323;
                 width: 100%;
-             color: white;
+                color: white;
+                margin-top: 6em;
+                font-size: 14px;
+                font-weight: 100;
+                line-height: 1.5em;
+    
        }
 footer div
 {
@@ -425,13 +430,15 @@ width: 90%;
     text-align: left;
 
 }
-footer{
-                text-align: center;
-    }
+footer > div > section:nth-child(3) > p {
+    font-size: 16px;
+    font-weight: 400;
+}
 
-
-
-
+footer .fa-facebook, footer .fa-twitter, footer .fa-youtube, footer .fa-instagram{
+    font-size: 45px;
+    margin: 5px;
+}
 
 
 
