@@ -313,7 +313,7 @@ h2{
             /* aqui inicia los estilos de tablet*/
         }
          @media screen and (min-width:1024px) {
-
+}
 
 /* /Manuel */
 /* Juan (151-200) */
@@ -326,73 +326,164 @@ body{
 
         }
 
-        
-   
-       }
-      
-       #acercade{
+        #acercade{
         display: block;
         max-width: 1020px;
         margin: 0 auto;
-        grid-column: 1;
-        grid-row: 2;
-
+        width: 90%;
+       }
+       
+       #numero1{
+        display: block;
+        
        }
        
        #ventajas{
-        display: block;
-        max-width: 100px;
+       display: block;
+        
        }
-        }
-        section{
-            background: lightgray;
-            position: relative;
-            grid-column: 1 / 2;
-        }
-        nav{
-            background: yellow;
-        }
-        .contenedor {
-            display: grid;
-            grid-template-columns: 100px 100px;
-        }
-        article{
-            background: red;
 
-        }
-        footer{
-            background: orange;
-            text-align: center;
-            height: 70px;
-            width: 100%;
-            margin: 0;
-        }
+       #acercade > img{
+        display: block;
+        margin: 0 auto 2em;
+        max-width: 413px;
+       }
+
+       .ventaja{
+        display: block;
+        width: 100%;
+        margin: .5em 0;
+       }
+
+       #ventajas > .ventaja > img{
+        width: 8%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 2%;
+        max-width: 26px;
+       }
+       
+
+       .ventaja h3{
+        width: 88%;
+        display: inline-block;
+        margin-top: 0;
+       }
 
 
+        
         
         *{
             box-sizing: border-box;
         }
         @media screen and (min-width: 768px){
          /*aqui inician los estilos de tablet*/
-         section{
-            display:grid;
-            grid-template: 1fr / 200px 1fr; 
-        }
-       
+      
          /*aqui terminan los estilos de tablet*/
         }
 
         @media screen and (min-width: 1024px){
          /*aqui inician los estilos de laptop*/
- 
-            h1 {
-                font-size: 48px;
-            }
-           
-            section{
-                grid-template: 1fr / 300px 1fr;
-            }
+
+         /*aqui terminan los estilos de laptop*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /Juan */
+/* Ruth(374-) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
