@@ -91,6 +91,8 @@ form button {
 border: solid rgba(29, 30, 33, 1) 2px;
     color: black;
 }
+
+
 /* /Matías */
 /* Nema (51-100) */
 header{
@@ -169,6 +171,7 @@ button:hover {
 .text-hero p{
     font-size: 24px;
 }
+
 /* /Nema */
 /* Manuel (101-150) */
 #beneficios{
@@ -203,13 +206,12 @@ h2{
                 display: inline-grid;
                 grid-template-columns: 
             }
+            
             /* aqui inicia los estilos de tablet*/
         }
          @media screen and (min-width:1024px) {
-            /* aqui inicia los estilos de tablet*/
-             
-            /* aqui inicia los estilos de tablet*/
-}
+
+
 /* /Manuel */
 /* Juan (151-200) */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
@@ -235,8 +237,8 @@ body{
        }
        
        #ventajas{
-       	display: block;
-       	max-width: 100px;
+        display: block;
+        max-width: 100px;
        }
         }
         section{
@@ -288,57 +290,6 @@ body{
             section{
                 grid-template: 1fr / 300px 1fr;
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* /Juan */
-/* Ruth (201-) */
-
 
 
 
