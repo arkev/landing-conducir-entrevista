@@ -5,6 +5,7 @@
     display: grid;
     position: relative;
     justify-content: center;
+    font-family:'Montserrat',sans-serif;
 }
 .title4 { 
     position: static;
@@ -20,6 +21,7 @@
     position: relative;
     margin: 115px 0px 10px;
     left: 57px;
+    font-family:'Montserrat',sans-serif;
 }
 .num p {
     visibility: inherit;
@@ -28,6 +30,7 @@
     font-size:176px;
     line-height: 1.4em;
     font-weight: 700;
+    font-family:'Montserrat',sans-serif;
 }
 #num01 {
     color:#C0FCFC;
@@ -40,24 +43,23 @@
 }
 #cta{
 position: static;
-display: grid;
+display: inline-block;
 height: auto;
 width: 100%;
 grid-template-rows:1fr;
 grid-template-columns: 100%;
 justify-content: center;
 }
+#ctas {
+   margin: 20px 0px 0px 30px;
+}
 #cta p {
     font-size: 15px;
     color: #787C88;
     position: relative;
-    margin: auto;
-    left: 25px;
+    margin: -34px 75px 0px;
     font-weight: 700;
-}
-#cta img {
-    margin: auto;
-    position: relative;
+    font-family:'Montserrat',sans-serif;
 }
 #cta div {
     justify-content: center;
@@ -65,11 +67,13 @@ justify-content: center;
 }
 form {
     height: auto;
-   width: 480px;
-   position: relative;
+    position: relative;
+    justify-content: center;
+    display: grid;
 }
 input {
-    width: 100%;
+    width: 360px;
+    height: 50px;
     border-radius: 6px;
     border-width: 1px;
     background-color: rgba(255, 255, 255, 1);
@@ -77,80 +81,119 @@ input {
     color: #00A6FF;
     border-style: solid;
     border-color: rgba(198, 226, 247, 1);
-    padding: 20px;
+    padding: 10px;
     margin: 5px;
     text-overflow: ellipsis;
-    height: 50px;
-    display: inline-block;
+    display: grid;
     font-family:'Montserrat',sans-serif;
     font-weight: 700;
     font-size: 14px/1.4em;
+}
+input:hover{
+    border-width: 1px;
+    background-color: rgba(234, 247, 255, 1);
+    border-style: solid;
+    border-color: rgba(198, 226, 247, 1);
 }
 form button {
     background-color: transparent;
 border: solid rgba(29, 30, 33, 1) 2px;
     color: black;
+     height: 36px;
+    min-height: 24px;
+    width: 120px;
 }
 
+form div {
+    justify-content: center;
+    display: grid;
+}
+.fa-lock {
+   font-size: 30px;
+    color: #e2e2e2;
+    margin: 0px 30px 0px;
+}
+ @media screen and (min-width: 768px){
+         /*aqui inician los estilos de tablet*/
+       #why {
+     display: flex;
+            }
+                 input {
+    width: 668px;
+  }
+         /*aqui terminan los estilos de tablet*/
+        }
+  #cta p {
+                margin: -30px 75px 0px;
+            }
+        @media screen and (min-width: 1024px){
+         /*aqui inician los estilos de laptop*/
+ #why {
+     display: flex;
+            }
+            input {
+    width: 724px;
+  }
+            #cta p {
+                margin: -28px 75px 0px;
+            }
+         /*aqui terminan los estilos de laptop*/
+            }
 
 /* /Matías */
 /* Nema (51-100) */
 header{
-  background-color: transparent;
+    background-color: transparent;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.3)
+    ), url(Img/69cd25_04cddd545c064d5394275f3c2ade52f1~mv2_d_3000_1687_s_2.webp) no-repeat center;
+    background-size:cover;
 }
 h1{
-    width: 620px;
-    font-size:49px;
-    font-weight: 900;
+    width: 100%;
+    font-size:37px;
+    font-weight: 700;
     line-height:1.2em;
     color: white;
     text-align: left;
 }
-.logo{
-    width: 50%;
-    height: 50%;
+.logo1{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.logo2{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
 }
 .button{
     background-color: transparent; 
     color: white;
     border-radius: 50px; border: 2.5px solid;
     font-size: 17px; padding: 10px 31px;
+    margin-bottom: 40px;
 }
 .subtitle{
     color: white;
+    font-size:26px;
     font-weight: 350;
     text-align: left;
-}
-.hero-image {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.3)
-    ), url(Img/69cd25_04cddd545c064d5394275f3c2ade52f1~mv2_d_3000_1687_s_2.webp) no-repeat center;
-    background-size:cover;
-    height: 100%;
-    position: relative;
-    padding-bottom: 60px;
-}
-.hero-logo {
-   display: grid;
-   /*grid-template-columns:50px 1fr 1fr 1fr 50px; */
-   grid-template-rows: 80px;
-    padding-top: 10px;
-}
-#logos {
-    grid-column-start: 2;
-    vertical-align: top;
+    margin-bottom: 1.75em;
 }
 #icons {
-    grid-column-start: 4;
-    color: white;
+ display: none;
+}
+#header{
+    padding-bottom: 3em;
 }
 .text-hero {
     color: white;
-    padding-left: 50px;
-    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
 }
-
 button{
     height: 52px;
     min-height: 24px;
@@ -170,6 +213,54 @@ button:hover {
 }
 .text-hero p{
     font-size: 24px;
+}
+
+@media screen and (min-width:768px) {
+            /* aqui inicia los estilos de tablet*/
+            
+            #header{
+                display:grid;
+                grid-template: 1fr/ 1fr 4fr 1fr
+            }
+            h1{
+                display: grid;
+                width: 75%;
+                font-size:45px;
+                font-weight: 700;
+                line-height:1.2em;
+                color: white;
+                text-align: left;
+                margin-top: 15%;
+            }
+           #icons {
+                display:block;
+                width: 60%;
+                color: white;
+                margin:auto;
+            }
+            .logo1{
+                width: 190%;
+                margin: 0 auto;
+                padding-left: 25%
+            }
+            .logo2{                                         
+                width: 100%;
+                margin:auto;
+            }
+            /* aqui inicia los estilos de tablet*/
+}
+    @media screen and (min-width:1024px){
+            /* aqui inicia los estilos de tablet*/
+        .logo1{
+                width: 160%;
+                margin: 0 auto;
+                margin-left: 35%
+            }
+        .logo2{
+                width: 70%;
+                margin:auto;
+            }
+            /* aqui inicia los estilos de tablet*/
 }
 
 /* /Nema */
@@ -193,18 +284,30 @@ h2{
 .beneficio img{
     display: inline-block;
     width: 12%;
-    margin-right: 6%;
-    max-width: 60px;
+    margin-right: 4%;
+    max-width: 50px;
+    vertical-align: top;
 }
 .beneficio div{
     display: inline-block;
     width: 81%;
 }
+.beneficio h4{
+    margin-top: 0;
+    
+}
         @media screen and (min-width:768px) {
             /* aqui inicia los estilos de tablet*/
-            .beneficio img, div{
-                display: inline-grid;
-                grid-template-columns: 
+            #beneficios{
+                display: grid;
+                grid-template: 6em 1fr 1fr/50% 50%;
+            }
+            #beneficios h2{
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            #beneficios img{
+                margin-right: 19px;
             }
             
             /* aqui inicia los estilos de tablet*/
