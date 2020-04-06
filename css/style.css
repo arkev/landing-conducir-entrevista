@@ -50,6 +50,9 @@ grid-template-rows:1fr;
 grid-template-columns: 100%;
 justify-content: center;
 }
+#ctas {
+   margin: 20px 0px 0px 30px;
+}
 #cta p {
     font-size: 15px;
     color: #787C88;
@@ -61,7 +64,6 @@ justify-content: center;
 #cta div {
     justify-content: center;
     display: grid;
-    margin: 20px;
 }
 form {
     height: auto;
@@ -70,7 +72,7 @@ form {
     display: grid;
 }
 input {
-    width: 400px;
+    width: 360px;
     height: 50px;
     border-radius: 6px;
     border-width: 1px;
@@ -79,7 +81,7 @@ input {
     color: #00A6FF;
     border-style: solid;
     border-color: rgba(198, 226, 247, 1);
-    padding: 20px;
+    padding: 10px;
     margin: 5px;
     text-overflow: ellipsis;
     display: grid;
