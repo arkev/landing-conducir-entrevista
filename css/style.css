@@ -309,17 +309,7 @@ h2{
         }
          @media screen and (min-width:1024px) {
             /* aqui inicia los estilos de tablet*/
-            #beneficios{
-                display: grid;
-                grid-template: 6em 1fr 1fr/50% 50%;
-            }
-            #beneficios h2{
-                grid-column-start: 1;
-                grid-column-end: 3;
-            }
-            #beneficios img{
-                margin-right: 19px;
-            }
+             
             /* aqui inicia los estilos de tablet*/
 }
 /* /Manuel */
