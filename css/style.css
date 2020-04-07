@@ -434,35 +434,27 @@ footer > div > section:nth-child(3) > p {
     font-size: 16px;
     font-weight: 400;
 }
-
 footer .fa-facebook, footer .fa-twitter, footer .fa-youtube, footer .fa-instagram{
     font-size: 45px;
     margin: 5px;
 }
+@media screen and (min-width: 768px){
+         /*aqui inician los estilos de tablet*/
+      
+         /*aqui terminan los estilos de tablet*/
+        }
 
+        @media screen and (min-width: 1024px){
+         /*aqui inician los estilos de laptop*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         /*aqui terminan los estilos de laptop*/
+}
+    #static  <img{
+    float: left;
+}
+    #redes< fa-facebook <fa-twitter <fa-youtube <fa-instagram{
+    float: left;
+}
 
 
 
