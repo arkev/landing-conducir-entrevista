@@ -239,26 +239,25 @@ button:hover {
                 margin:auto;
             }
             .logo1{
-                width: 190%;
+                width: 100%;
                 margin: 0 auto;
                 padding-left: 25%
             }
             .logo2{                                         
-                width: 100%;
-                margin:auto;
+                width: 140%;
+                margin:0 auto;
+                margin-top: 14%;
             }
             /* aqui inicia los estilos de tablet*/
 }
     @media screen and (min-width:1024px){
             /* aqui inicia los estilos de tablet*/
         .logo1{
-                width: 160%;
-                margin: 0 auto;
-                margin-left: 35%
+                width: ;
+                margin top:0 auto;
             }
         .logo2{
-                width: 70%;
-                margin:auto;
+                margin top: auto;
             }
             /* aqui inicia los estilos de tablet*/
 }
