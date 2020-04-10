@@ -1,546 +1,558 @@
+/* Generales */
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+	font-size: 32px;
+	text-align: center;
+	line-height: 1.4em;
+}
+
 /* Matías (1-50) */
 #why {
-    width: 100%;
-    height: auto;
-    display: grid;
-    position: relative;
-    justify-content: center;
-    font-family:'Montserrat',sans-serif;
+	width: 90%;
+	height: auto;
+	position: relative;
+	justify-content: center;
 }
-.title4 { 
-    position: static;
-    display: grid;
-    height: auto;
-    width: 280px;
-    grid-template-rows: 1fr;
-    justify-content: center;
+
+body > h2{
+	margin-top: 2.2em;
 }
+
+.title4 {
+	position: static;
+	display: grid;
+	height: auto;
+	width: 280px;
+	grid-template-rows: 1fr;
+	justify-content: center;
+}
+
 .title4 h4 {
-    width: 180px;
-    color: #1D1E21;
-    position: relative;
-    margin: 115px 0px 10px;
-    left: 57px;
-    font-family:'Montserrat',sans-serif;
+	width: 180px;
+	color: #1D1E21;
+	position: relative;
+	margin: 115px 0px 10px;
+	left: 57px;
 }
+
 .num p {
-    visibility: inherit;
-    margin: -176px 0px 0px;
-    width: 208px;
-    font-size:176px;
-    line-height: 1.4em;
-    font-weight: 700;
-    font-family:'Montserrat',sans-serif;
+	visibility: inherit;
+	margin: -176px 0px 0px;
+	width: 208px;
+	font-size: 176px;
+	line-height: 1.4em;
+	font-weight: 700;
 }
+
 #num01 {
-    color:#C0FCFC;
+	color: #C0FCFC;
 }
+
 #num02 {
-    color:#ECDBFF;
+	color: #ECDBFF;
 }
+
 #num03 {
-    color:#D4EDEE;
+	color: #D4EDEE;
 }
-#cta{
-position: static;
-display: inline-block;
-height: auto;
-width: 100%;
-grid-template-rows:1fr;
-grid-template-columns: 100%;
-justify-content: center;
+
+#cta {
+	position: static;
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	grid-template-rows: 1fr;
+	grid-template-columns: 100%;
+	justify-content: center;
 }
+
 #ctas {
-   margin: 20px 0px 0px 30px;
+	margin: 20px 0px 0px 30px;
 }
+
 #cta p {
-    font-size: 15px;
-    color: #787C88;
-    position: relative;
-    margin: -34px 75px 0px;
-    font-weight: 700;
-    font-family:'Montserrat',sans-serif;
+	font-size: 15px;
+	color: #787C88;
+	position: relative;
+	margin: -34px 75px 0px;
+	font-weight: 700;
 }
+
 #cta div {
-    justify-content: center;
-    display: grid;
+	justify-content: center;
+	display: grid;
 }
+
 form {
-    height: auto;
-    position: relative;
-    justify-content: center;
-    display: grid;
+	height: auto;
+	position: relative;
+	justify-content: center;
+	display: grid;
 }
+
 input {
-    width: 360px;
-    height: 50px;
-    border-radius: 6px;
-    border-width: 1px;
-    background-color: rgba(255, 255, 255, 1);
-    box-sizing: border-box !important;
-    color: #00A6FF;
-    border-style: solid;
-    border-color: rgba(198, 226, 247, 1);
-    padding: 10px;
-    margin: 5px;
-    text-overflow: ellipsis;
-    display: grid;
-    font-family:'Montserrat',sans-serif;
-    font-weight: 700;
-    font-size: 14px/1.4em;
+	width: 360px;
+	height: 50px;
+	border-radius: 6px;
+	border-width: 1px;
+	background-color: rgba(255, 255, 255, 1);
+	box-sizing: border-box !important;
+	color: #00A6FF;
+	border-style: solid;
+	border-color: rgba(198, 226, 247, 1);
+	padding: 10px;
+	margin: 5px;
+	text-overflow: ellipsis;
+	display: grid;
+	font-weight: 700;
+	font-size: 14px/1.4em;
 }
-input:hover{
-    border-width: 1px;
-    background-color: rgba(234, 247, 255, 1);
-    border-style: solid;
-    border-color: rgba(198, 226, 247, 1);
+
+input:hover {
+	border-width: 1px;
+	background-color: rgba(234, 247, 255, 1);
+	border-style: solid;
+	border-color: rgba(198, 226, 247, 1);
 }
+
 form button {
-    background-color: transparent;
-border: solid rgba(29, 30, 33, 1) 2px;
-    color: black;
-     height: 36px;
-    min-height: 24px;
-    width: 120px;
+	background-color: transparent;
+	border: solid rgba(29, 30, 33, 1) 2px;
+	color: black;
+	height: 36px;
+	min-height: 24px;
+	width: 120px;
 }
 
 form div {
-    justify-content: center;
-    display: grid;
+	justify-content: center;
+	display: grid;
 }
+
 .fa-lock {
-   font-size: 30px;
-    color: #e2e2e2;
-    margin: 0px 30px 0px;
+	font-size: 30px;
+	color: #e2e2e2;
+	margin: 0px 30px 0px;
 }
- @media screen and (min-width: 768px){
-         /*aqui inician los estilos de tablet*/
-       #why {
-     display: flex;
-            }
-                 input {
-    width: 668px;
-  }
-         /*aqui terminan los estilos de tablet*/
-        }
-  #cta p {
-                margin: -30px 75px 0px;
-            }
-        @media screen and (min-width: 1024px){
-         /*aqui inician los estilos de laptop*/
- #why {
-     display: flex;
-            }
-            input {
-    width: 724px;
-  }
-            #cta p {
-                margin: -28px 75px 0px;
-            }
-         /*aqui terminan los estilos de laptop*/
-            }
+
+@media screen and (min-width: 768px) {
+
+	/*aqui inician los estilos de tablet*/
+	#why {
+		display: flex;
+	}
+
+	input {
+		width: 668px;
+	}
+
+	/*aqui terminan los estilos de tablet*/
+}
+
+#cta p {
+	margin: -30px 75px 0px;
+}
+
+@media screen and (min-width: 1024px) {
+
+	/*aqui inician los estilos de laptop*/
+	#why {
+		display: flex;
+	}
+
+	input {
+		width: 724px;
+	}
+
+	#cta p {
+		margin: -28px 75px 0px;
+	}
+
+	/*aqui terminan los estilos de laptop*/
+}
 
 /* /Matías */
 /* Nema (51-100) */
-header{
-    background-color: transparent;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.3)
-    ), url(Img/69cd25_04cddd545c064d5394275f3c2ade52f1~mv2_d_3000_1687_s_2.webp) no-repeat center;
-    background-size:cover;
+header {
+	background-color: transparent;
+	background: linear-gradient(rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.3)), url(Img/69cd25_04cddd545c064d5394275f3c2ade52f1~mv2_d_3000_1687_s_2.webp) no-repeat center;
+	background-size: cover;
 }
-h1{
-    width: 100%;
-    font-size:37px;
-    font-weight: 700;
-    line-height:1.2em;
-    color: white;
-    text-align: left;
+
+h1 {
+	width: 100%;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: white;
+	text-align: left;
 }
-.logo1{
-    width: 80%;
-    margin: 0 auto;
-    display: block;
+
+.logo1 {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
 }
-.logo2{
-    width: 70%;
-    margin: 0 auto;
-    display: block;
+
+.logo2 {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
 }
-.button{
-    background-color: transparent; 
-    color: white;
-    border-radius: 50px; border: 2.5px solid;
-    font-size: 17px; padding: 10px 31px;
-    margin-bottom: 40px;
+
+.button {
+	background-color: transparent;
+	color: white;
+	border-radius: 50px;
+	border: 2.5px solid;
+	font-size: 17px;
+	padding: 10px 31px;
+	margin-bottom: 40px;
 }
-.subtitle{
-    color: white;
-    font-size:26px;
-    font-weight: 350;
-    text-align: left;
-    margin-bottom: 1.75em;
+
+.subtitle {
+	color: white;
+	font-size: 26px;
+	font-weight: 350;
+	text-align: left;
+	margin-bottom: 1.75em;
 }
+
 #icons {
- display: none;
+	display: none;
 }
-#header{
-    padding-bottom: 3em;
+
+#header {
+	padding-bottom: 3em;
 }
+
 .text-hero {
-    color: white;
-    width: 90%;
-    margin: 0 auto;
-    display: block;
+	color: white;
+	width: 90%;
+	margin: 0 auto;
+	display: block;
 }
-button{
-    height: 52px;
-    min-height: 24px;
-    width: 189px;
-    background-color: transparent;
-    border: solid rgba(255, 255, 255, 1) 2px;
-    border-radius: 30px 30px 30px 30px;
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
-    cursor: pointer !important;
+
+button {
+	height: 52px;
+	min-height: 24px;
+	width: 189px;
+	background-color: transparent;
+	border: solid rgba(255, 255, 255, 1) 2px;
+	border-radius: 30px 30px 30px 30px;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+	cursor: pointer !important;
 }
+
 button:hover {
-    color: white;
-    background-color: rgba(50, 50, 50, 1);
-    border-color: transparent;
+	color: white;
+	background-color: rgba(50, 50, 50, 1);
+	border-color: transparent;
 }
-.text-hero p{
-    font-size: 24px;
+
+.text-hero p {
+	font-size: 24px;
 }
 
 @media screen and (min-width:768px) {
-            /* aqui inicia los estilos de tablet*/
-            
-            #header{
-                display:grid;
-                grid-template: 1fr/ 1fr 4fr 1fr
-            }
-            h1{
-                display: grid;
-                width: 75%;
-                font-size:45px;
-                font-weight: 700;
-                line-height:1.2em;
-                color: white;
-                text-align: left;
-                margin-top: 15%;
-            }
-           #icons {
-                display:block;
-                width: 60%;
-                color: white;
-                margin:auto;
-            }
-            .logo1{
-                width: 190%;
-                margin: 0 auto;
-                padding-left: 25%
-            }
-            .logo2{                                         
-                width: 100%;
-                margin:auto;
-            }
-            /* aqui inicia los estilos de tablet*/
+	/* aqui inicia los estilos de tablet*/
+
+	#header {
+		display: grid;
+		grid-template: 1fr/ 1fr 2fr 1fr
+	}
+
+	h1 {
+		display: grid;
+		width: 75%;
+		font-size: 45px;
+		font-weight: 700;
+		line-height: 1.2em;
+		color: white;
+		text-align: left;
+		margin-top: 15%;
+	}
+
+	#icons {
+		display: block;
+		width: 60%;
+		color: white;
+		margin: auto;
+	}
+	
+	#icons a{
+		color: white;
+	}
+	
+	#icons .fa-facebook, #icons .fa-twitter, #icons .fa-instagram{
+		font-size: 30px;
+		margin: 2px;
+	}
+
+	.logo1 {
+		width: 100%;
+		margin: 1em auto;
+	}
+
+	.logo2 {
+		width: 100%;
+		margin:2.1em auto;
+	}
+
+	/* aqui inicia los estilos de tablet*/
 }
-    @media screen and (min-width:1024px){
-            /* aqui inicia los estilos de tablet*/
-        .logo1{
-                width: 160%;
-                margin: 0 auto;
-                margin-left: 35%
-            }
-        .logo2{
-                width: 70%;
-                margin:auto;
-            }
-            /* aqui inicia los estilos de tablet*/
+
+@media screen and (min-width:1024px) {
+
+	/* aqui inicia los estilos de tablet*/
+	.logo1 {
+		width: 70%;
+		margin: 1.0em auto;
+	}
+
+	.logo2 {
+		width: 100%;
+		margin: 1.3em auto;
+	}
+	#icons .fa-facebook, #icons .fa-twitter, #icons .fa-instagram{
+		font-size: 32px;
+		margin: 5px;
+	}
+
+	/* aqui inicia los estilos de tablet*/
 }
 
 /* /Nema */
 /* Manuel (101-150) */
-#beneficios{
-    display: block;
-    margin: 0 auto;
-    max-width: 1020px;
+#beneficios {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1020px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 3.7em;
+	padding-top: 3em;
 }
-h2{
-    font-size: 32px;
-    text-align: center;
-    line-height: 1.4em;
+
+.beneficio {
+	width: 90%;
+	margin: 1.5em auto;
+	display: block;
 }
-.beneficio{
-    width: 90%;
-    margin: 1.5em auto;
-    display: block;
-    
+
+.beneficio img {
+	display: inline-block;
+	width: 12%;
+	margin-right: 4%;
+	max-width: 50px;
+	vertical-align: top;
 }
-.beneficio img{
-    display: inline-block;
-    width: 12%;
-    margin-right: 4%;
-    max-width: 50px;
-    vertical-align: top;
+
+.beneficio div {
+	display: inline-block;
+	width: 81%;
 }
-.beneficio div{
-    display: inline-block;
-    width: 81%;
+
+.beneficio h4 {
+	margin-top: 0;
+
 }
-.beneficio h4{
-    margin-top: 0;
-    
+
+@media screen and (min-width:768px) {
+
+	/* aqui inicia los estilos de tablet*/
+	#beneficios {
+		display: grid;
+		grid-template: 6em 1fr 1fr/50% 50%;
+	}
+
+	#beneficios h2 {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	#beneficios img {
+		margin-right: 19px;
+	}
+
+	/* aqui inicia los estilos de tablet*/
 }
-        @media screen and (min-width:768px) {
-            /* aqui inicia los estilos de tablet*/
-            #beneficios{
-                display: grid;
-                grid-template: 6em 1fr 1fr/50% 50%;
-            }
-            #beneficios h2{
-                grid-column-start: 1;
-                grid-column-end: 3;
-            }
-            #beneficios img{
-                margin-right: 19px;
-            }
-            
-            /* aqui inicia los estilos de tablet*/
-        }
-         @media screen and (min-width:1024px) {
-}
+
+@media screen and (min-width:1024px) {}
 
 /* /Manuel */
 /* Juan (151-200) */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body{
-            background: white;
-            margin: 0;
-            padding: 0;
-            font-family: 'Montserrat', sans-serif;
-
-        }
-
-        #acercade{
-        display: block;
-        max-width: 1020px;
-        margin: 0 auto;
-        width: 90%;
-       }
-       
-       #numero1{
-        display: block;
-        
-       }
-       
-       #ventajas{
-       display: block;
-        
-       }
-
-       #acercade > img{
-        display: block;
-        margin: 0 auto 2em;
-        max-width: 413px;
-       }
-
-       .ventaja{
-        display: block;
-        width: 100%;
-        margin: .5em 0;
-       }
-
-       #ventajas > .ventaja > img{
-        width: 8%;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 2%;
-        max-width: 26px;
-       }
-       
-
-       .ventaja h3{
-        width: 88%;
-        display: inline-block;
-        margin-top: 0;
-       }
 
 
-        
-        
-        *{
-            box-sizing: border-box;
-        }
-        @media screen and (min-width: 768px){
-         /*aqui inician los estilos de tablet*/
-      
-         /*aqui terminan los estilos de tablet*/
-        }
+#acercade {
+	display: block;
+	max-width: 1020px;
+	margin: 0 auto;
+	width: 90%;
+	border-bottom: 1px solid grey;
+	padding-bottom: 2.5em;
+}
 
-        @media screen and (min-width: 1024px){
-         /*aqui inician los estilos de laptop*/
+#numero1 {
+	display: block;
 
-         /*aqui terminan los estilos de laptop*/
+}
+
+#ventajas {
+	display: block;
+
+}
+
+#acercade > img {
+	display: block;
+	margin: 0 auto 2em;
+	max-width: 413px;
+}
+
+.ventaja {
+	display: block;
+	width: 100%;
+	margin: .5em 0;
+}
+
+#ventajas > .ventaja > img {
+	width: 8%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2%;
+	max-width: 26px;
 }
 
 
+.ventaja h3 {
+	width: 88%;
+	display: inline-block;
+	margin-top: 0;
+}
 
+@media screen and (min-width: 768px) {
+	/*aqui inician los estilos de tablet*/
+	#acercade{
+		display: grid;
+		grid-template: 1fr 7em/50% 50%;
+		margin-top: 3em;
+	}
+	#numero1 > h2{
+		margin-top: 0;
+	}
+	#ventajas{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		display: grid;
+		grid-template: 1fr/1fr 1fr 1fr;
+		margin-top: 2em;
+	}
+	/*aqui terminan los estilos de tablet*/
+}
 
+@media screen and (min-width: 1024px) {
+	/*aqui inician los estilos de laptop*/
 
-
-
-
-
-
-
-
-
-
-
+	/*aqui terminan los estilos de laptop*/
+}
 
 /* /Juan */
+
 /* Ruth(374-) */
-footer{
-                background:#232323;
-                width: 100%;
-                color: white;
-                margin-top: 6em;
-                font-size: 14px;
-                font-weight: 100;
-                line-height: 1.5em;
-  padding-bottom: 4em;   
-       }
-footer .direccion
-{
-        display: block;
-        max-width: 1020px;
-        margin: 0 auto;
-        width: 90%;
-    
-       }
-footer img{
-
-width: 90%;
-    max-width: 170px;
-    text-align: left;
-
+footer {
+	background: #232323;
+	width: 100%;
+	color: white;
+	margin-top: 6em;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 1.5em;
+	padding-bottom: 4em;
 }
+
+footer .direccion {
+	display: block;
+	max-width: 1020px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+footer img {
+	width: 90%;
+	max-width: 170px;
+	text-align: left;
+}
+
 footer > div > section:nth-child(3) > p {
-    font-size: 16px;
-    font-weight: 400;
+	font-size: 16px;
+	font-weight: 400;
 }
-footer .fa-facebook, footer .fa-twitter, footer .fa-youtube, footer .fa-instagram{
-    font-size: 45px;
-    margin: 5px;
+
+footer .fa-facebook,
+footer .fa-twitter,
+footer .fa-youtube,
+footer .fa-instagram {
+	font-size: 45px;
+	margin: 5px;
 }
+
+footer a{
+	color: white;
+}
+
 .redes {
-    text-align: center;
-}
-@media screen and (min-width: 768px){
-         /*aqui inician los estilos de tablet*/
-       footer .direccion{
-                display: grid;
-                grid-template: 6em 1fr /50% 50%;
-            }
-     .direccion img {
-                grid-column-start: 1;
-                grid-column-end: 3;
-            }
-    #direccion {
-        border-right: 2px solid grey;
-    }
-         /*aqui terminan los estilos de tablet*/
-        }
-
-        @media screen and (min-width: 1024px){
-         /*aqui inician los estilos de laptop*/
-
-         /*aqui terminan los estilos de laptop*/
+	text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#copyright{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+
+	/*aqui inician los estilos de tablet*/
+	footer .direccion {
+		display: grid;
+		grid-template: 6em 1fr /50% 50%;
+	}
+
+	.direccion img {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	#direccion {
+		border-right: 2px solid grey;
+	}
+
+	/*aqui terminan los estilos de tablet*/
+}
+
+@media screen and (min-width: 1024px) {
+	/*aqui inician los estilos de laptop*/
+
+	/*aqui terminan los estilos de laptop*/
+}
 
 /* /Ruth */
