@@ -425,12 +425,18 @@ button:hover {
 	display: block;
 	margin: 0 auto 2em;
 	max-width: 413px;
+	width: 100%;
 }
 
 .ventaja {
 	display: block;
 	width: 100%;
 	margin: .5em 0;
+}
+
+.ventaja .fa-book, .ventaja .fa-clock,.ventaja .fa-tags{
+	font-size: 26px;
+	margin-right:4px;
 }
 
 #ventajas > .ventaja > img {
@@ -445,7 +451,8 @@ button:hover {
 .ventaja h3 {
 	width: 88%;
 	display: inline-block;
-	margin-top: 0;
+	vertical-align: top;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
